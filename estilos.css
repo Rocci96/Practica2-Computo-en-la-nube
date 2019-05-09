@@ -1,0 +1,106 @@
+.jumbotron{
+  text-align: center;
+  background-color: transparent;
+  padding: 20px 0;
+}
+
+.jumbotron .Mas-grande{
+  font-size: 80px;
+}
+
+.ewk_cont_banner{
+    height: 50vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/1.jpg")
+}
+
+.social-bar{
+  position: fixed;
+  right: 0;
+  top: 35%;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  z-index: 100;
+}
+
+.icon{
+  color: white;
+  text-decoration: none;
+  padding: .7rem;
+  display: flex;
+  transition: all .5s;
+}
+
+.icon-facebook2{
+  background: #2E406E;
+}
+
+.icon-twitter{
+  background: #339DC5;
+}
+
+.icon-youtube{
+  background: #E83028;
+}
+
+.icon-instagram{
+  background: #3F60A5;
+}
+
+.icon:first-child{
+  border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child{
+  border-radius: 0 0 0 1rem;
+}
+
+.icon:hover{
+  padding-right: 3rem;
+  border-radius: 1rem 0 0 1rem;
+  box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?doq4z6');
+  src:  url('fonts/icomoon.eot?doq4z6#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?doq4z6') format('truetype'),
+    url('fonts/icomoon.woff?doq4z6') format('woff'),
+    url('fonts/icomoon.svg?doq4z6#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook2:before {
+  content: "\ea91";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-youtube2:before {
+  content: "\ea9e";
+}
